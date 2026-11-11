@@ -12,7 +12,7 @@ pipe = StableDiffusionInpaintPipeline.from_pretrained(
 
 pipe = pipe.to("cpu")
 
-image = Image.open("./images/mask_car.png").convert("RGB").resize((512,512))
+image = Image.open("./images/CityCar.jpg").convert("RGB").resize((512,512))
 mask = Image.open("mask_car.png").convert("RGB").resize((512,512))
 
 prompt = "empty road with green grass and trees along the roadside, no car, no vehicles, no traffic"
