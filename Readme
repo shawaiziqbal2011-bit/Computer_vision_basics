@@ -1,0 +1,13 @@
+Virtual Environments
+I created two virtual environments because the latest Python version is not
+currently compatible with some Transformers dependencies.
+
+Required Packages
+1. opencv-python – Image and video processing.
+2. cvzone – Simplifies common computer vision tasks.
+3. ultralytics – YOLO models for object detection and training.
+4. transformers - Provides access to pretrained AI models for tasks such as
+                   OCR, image classification, and text processing.
+
+Installation
+pip install opencv-python cvzone ultralytics
